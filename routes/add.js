@@ -14,7 +14,6 @@ router.get("/", auth, (req, res) => {
 router.post("/", auth, courseValidators, courseValidators, async (req, res) => {
 
     const errors = validationResult(req)
-
     if (!errors.isEmpty()) {
         return res.status(422).render("add", {
             title: "Добавить курс",
