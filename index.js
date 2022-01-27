@@ -77,7 +77,7 @@ const PORT = process.env.PORT || 3000
 
 async function start() {
     try {
-        await mongoose.connect(keys.MONGODB_URI, {
+        await mongoose.connect('mongodb+srv://lklklk:d4QM34GT5UkmKt09@cluster0.xeoww.mongodb.net/shop', {
             useNewUrlParser: true,
             // useFindAndModify: false
         })
