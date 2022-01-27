@@ -85,7 +85,7 @@ async function start() {
             console.log(`Server is running on ${PORT}`)
         })
     } catch (e) {
-        console.log(e)
+        console.log('erorrrrr', e);
     }
 }
 
